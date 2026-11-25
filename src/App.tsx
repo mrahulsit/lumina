@@ -1,12 +1,12 @@
 import { useContext } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Context } from "./context/context";
-import Sidebar from "./components/SideBar/SideBar";
-import ChatWindow from "./components/chat/ChatWindow";
-import Auth from "./components/auth/Auth";
-import Settings from "./components/settings/Settings";
-import SearchModal from "./components/modals/SearchModal";
-import Landing from "./components/landing/Landing";
+import Sidebar from "./Components/SideBar/SideBar";
+import ChatWindow from "./Components/chat/ChatWindow";
+import Auth from "./Components/auth/Auth";
+import Settings from "./Components/settings/Settings";
+import SearchModal from "./Components/modals/SearchModal";
+import Landing from "./Components/landing/Landing";
 
 function ChatApp() {
   const { currentUser, sidebarOpen, setSidebarOpen } = useContext(Context);
